@@ -1,7 +1,7 @@
 //By AlSch092 @ github
 #include "Game.hpp"
 
-Vector2 Game::GetAimPositionOfEntity(Vector3 localPosition, Vector3 entPosition) //doesnt work... chatgpt sucks
+Vector2 Game::GetAimPositionOfEntity(Vector3 localPosition, Vector3 entPosition)
 {
 	Vector2 aimDest;
 
@@ -18,6 +18,8 @@ Vector2 Game::GetAimPositionOfEntity(Vector3 localPosition, Vector3 entPosition)
 
     float distanceXY = sqrtf(deltaX * deltaX + deltaY * deltaY);
     aimDest.y = atan2f(deltaZ, distanceXY) * (180.0f / M_PI);
+
+    aimDest.x += 90.0f;
 
     return aimDest;
 }

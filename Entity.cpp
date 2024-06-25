@@ -178,7 +178,7 @@ bool Entity::WriteLocalPlayerAim(Vector2 axis)
 
 	__try
 	{
-		*(float*)(LocalEnt->MemoryAddress + Offsets::Entity::AimAxisX) = axis.x + 90.0;
+		*(float*)(LocalEnt->MemoryAddress + Offsets::Entity::AimAxisX) = axis.x;
 		*(float*)(LocalEnt->MemoryAddress + Offsets::Entity::AimAxisY) = axis.y;
 	}
 	__except (EXCEPTION_EXECUTE_HANDLER)
