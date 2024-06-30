@@ -6,3 +6,5 @@ Usage:
 - When another player is on your screen, your aim will seek close to their head.  
 
 Thanks for taking a look, updates will be made slowly when I have time.
+
+![ac_noobie](https://github.com/AlSch092/AssaultCubeNoob/assets/94417808/fa8dbba5-83cf-4801-b833-8c1fa867161d)
