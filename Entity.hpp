@@ -1,3 +1,4 @@
+//By AlSch092 @ github
 #pragma once
 #include "Constants.hpp"
 #include "Pointer.hpp"
@@ -25,7 +26,7 @@ typedef struct _Entity
 
 namespace Entity
 {
-	static const DWORD ThisPtrSig = 0x0054D07C;
+	static const DWORD ThisPtrSig = 0x0054D07C; //we can determine if an entity is valid in the list by reading the first 4 bytes of its entity structure
 
 	int GetHitpoints(DWORD EntityAddress);
 
