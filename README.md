@@ -5,6 +5,8 @@ Usage:
 - Inject into `ac_client.exe` process, press F1 on the console window to enable/disable aimbotting, or F2 for no-recoil.  
 - When another player is on your screen, your aim will seek close to their head.  
 
+Remember, cheating in online FPS games is for n00bs and I don't advise it, only the worst players use cheats.  
+
 Thanks for taking a look, updates will be made slowly when I have time.
 
 ![ac_noobie](https://github.com/AlSch092/AssaultCubeNoob/assets/94417808/fa8dbba5-83cf-4801-b833-8c1fa867161d)
