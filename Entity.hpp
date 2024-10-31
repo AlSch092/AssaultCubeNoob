@@ -15,18 +15,18 @@ typedef struct _Entity
 	Vector3 HeadPosition;
 	Vector3 FootPosition;
 
-	Vector2 AxisPosition;
+	Vector2 AxisPosition; //first person aim axis
 
 	DWORD Health;
 
-	DWORD TimeOnScreen;
+	DWORD TimeOnScreen; //increments only when the entity is on your screen in first person view
 
 	char PlayerName[15];
 };
 
 namespace Entity
 {
-	static const DWORD ThisPtrSig = 0x0054D07C; //we can determine if an entity is valid in the list by reading the first 4 bytes of its entity structure
+	static const DWORD ThisPtrSig = 0x0054D07C; //we can determine if an entity is valid in the list by reading the first 4 bytes of its entity structure, which is a pointer to a function
 
 	int GetHitpoints(DWORD EntityAddress);
 
